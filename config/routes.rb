@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+<<<<<<< HEAD
+=======
+  devise_for :users
+>>>>>>> 6ab92a68bc270cccf2b1245d92b78b6c832bba3c
   resources :comments
 
   get 'pages/info'
