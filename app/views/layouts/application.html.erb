@@ -22,13 +22,6 @@
   			<a class="navbar-brand" href="/">The Idea app</a>
   		</div>
   		<div class="collapse navbar-collapse">
-<<<<<<< HEAD
-  			<ul class="nav navbar-nav">
-  				<li class="active"><a href="/ideas">Ideas</a></li>
-  				<li ><%= link_to 'New Idea', new_idea_path %></li>
-            </ul>
-        </div>
-=======
   			<p class="navbar-text pull-right">
         <% if user_signed_in? %>
           Logged in as <strong><%= current_user.email %></strong>.
@@ -43,20 +36,16 @@
   				<li ><%= link_to 'New Idea', new_idea_path %></li>
         </ul>
       </div>
->>>>>>> 6ab92a68bc270cccf2b1245d92b78b6c832bba3c
     </div>
 </nav>
 
   <div class="container">
-<<<<<<< HEAD
-=======
     <% if notice %>
       <p class="alert alert-success"><%= notice %></p>
     <% end %>
     <% if alert %>
       <p class="alert alert-danger"><%= alert %></p>
     <% end %>
->>>>>>> 6ab92a68bc270cccf2b1245d92b78b6c832bba3c
     <%= yield %>
   </div>
 
